@@ -1,0 +1,175 @@
+/* .dashboard-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #0a192f;
+    min-height: 100vh;
+  }
+  
+  .dashboard-card {
+    width: 45%;
+    background: #112240;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  .details-card h2, .progress-card h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #64ffda;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .edit-btn, .save-btn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #64ffda;
+    color: #0a192f;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .progress-edit {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .progress-edit input {
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .dashboard-loading, .dashboard-error {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+  }
+   */
+
+   /* Dashboard.css */
+
+body {
+    background-color: #0a192f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    width: 90%;
+  }
+  
+  .project-details, .project-completion {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #64ffda;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    background-color: #233554;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .employees-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .employee-card {
+    background-color: #1b2b44;
+    padding: 10px;
+    border-radius: 8px;
+    width: calc(50% - 10px);
+    text-align: center;
+  }
+  
+  .employee-name {
+    font-weight: bold;
+    color: #64ffda;
+  }
+  
+  .employee-role {
+    display: block;
+    font-size: 0.9em;
+    color: #a8b2d1;
+  }
+  
+  .tech-stack {
+    background-color: #1b2b44;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .project-completion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-button, .save-button {
+    background-color: #64ffda;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .edit-button:hover, .save-button:hover {
+    background-color: #52e4c1;
+  }
+  
+  .progress-input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
